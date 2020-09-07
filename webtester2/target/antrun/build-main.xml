@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <delete dir="D:\dev\Projects\webtester2/src/main/webapp/WEB-INF/lib"/>
+  <copy todir="D:\dev\Projects\webtester2/src/main/webapp/WEB-INF/lib">
+    <fileset dir="D:\dev\Projects\webtester2/target/webtester2/WEB-INF/lib"/>
+  </copy>
+</target>
+</project>
